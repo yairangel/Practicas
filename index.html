@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div id="logo">
+                <img class="logo" src="developer.jpg" alt="Logo">
+                <span id="brand"><strong>Le</strong>gan</span>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="clearfix"></div>
+    </header>
+    <div id="container">
+        <section class="primer-section">
+            <h1>titulo</h1>
+            <h3>subtitulo</h3>
+            <a href="#"><button class="boton">More</button></a>
+        </section>
+        <section class="segundo-section">
+            <h2>titulo 2</h2>
+            <article class="article primer-article">
+                <img class="img-article" src="developer.jpg" alt="imagen" width="50%" height="50%">
+                <h3>subtitulo</h3>
+                <ol class="listado-article">
+                    <li>punto 1</li>
+                    <li>punto 2</li>
+                    <li>punto 3</li>
+                </ol>
+            </article>
+            <div class="clearfix"></div>
+            <article class="article segundo-article">
+                <img class="img-article" src="developer.jpg" alt="imagen" width="50%" height="50%">
+                <h3>subtitulo</h3>
+                <ol class="listado-article">
+                    <li>punto 1</li>
+                    <li>punto 2</li>
+                    <li>punto 3</li>
+                </ol>
+            </article>
+        </section>
+    </div>
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <div class="contacto">
+            <img class="logo" src="developer.jpg" alt="logo" width="50px" height="50px">
+            <a href="tel:+0000000000"><strong>Telefono</strong><span> 000-000-00-00</span></a>
+            <a href="mailto:00000@gmail.com"><strong>Correo</strong><span> 000000@gmail.com</span></a>
+        </div>
+        <div class="form">
+            <div class="datos">
+                <div class="nombre">
+                    <form action="" method="">
+                        <label for="">Nombre:</label>
+                        <input type="text" placeholder="nombre" require id="nombre" name="nombre"/></br>
+                        <label for="">E-mail:</label>
+                        <input type="email" placeholder="e-mail" require id="email" name="Email"/>
+                </div>
+                <div class="genero">
+                    <label for="">
+                        <input type="radio" id="mujer" name="Genero">Mujer
+                    </label>
+                    <label for="">
+                        <input type="radio" id="Hombre" name="Genero">Hombre
+                    </label>
+                    <label for="">
+                        <input type="radio" id="Otro" name="Genero">Otro
+                    </label>
+                </div>
+                <div class="intereses">
+                    <input type="checkbox" id="Cotizacion" name="cotizacion">Cotizacion
+                    <input type="checkbox" id="Reclamos" name="Reclamos">Reclamos
+                    <input type="checkbox" id="Comentarios" name="Comentarios">Comentarios
+                    <input type="checkbox" id="Otros" name="Otros">Otros
+                </div>    
+            </div>
+            <div class="comentarios">
+                <label for="Comentario">Comentario:</label>
+                <textarea name="Comentario" id="Comentario" cols="30" rows="10"></textarea>
+                <input class="boton boton-comentario" type="submit" value="Enviar">
+            </div>
+
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
